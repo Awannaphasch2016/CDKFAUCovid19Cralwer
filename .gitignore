@@ -1,0 +1,70 @@
+*.swp
+package-lock.json
+.pytest_cache
+*.egg-info
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# CDK Context & Staging files
+.cdk.staging/
+cdk.out/
+
+#=====================
+#==my .gitignore
+#=====================
+# general
+.idea
+.mypy_cache
+.tox
+.installed.cfg
+.tox/
+.idea/
+**/.idea/tasks.xml
+**/.idea/workspace.xml
+*.pyc
+.ipynb_checkpoints/
+build/
+dist/
+
+# specific to the given folder structure
+.Outputs/
+.Outputs/Data/
+Outputs/Data/
+/Outputs/Data/
+.Outputs/TwitterCrawler/
+.Outputs/ZipFiles/
+.Outputs/Report/
+.Outputs/Log
+Examples/**
+Examples/
+/.env
+**/work_env
+**/venv
+*.db
+/credentials.*
+
+.Data/
+.vscode/
+.history/
+.__pycache__
+
+# ad_hoc .github. This is to make push to github very clean
+**/DemoData/dataset_demo.pickle
+**/database.db.dat
+**/spam.bak
+**/spam.dir
+**/tmp/
+**/spam.log
+
